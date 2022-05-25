@@ -1,0 +1,76 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+background-color: aqua;
+background-color: rgb(255, 89, 0);
+}
+.img_logo{
+    height: 30px;
+    width: 30px;
+   
+}
+.img_cart{
+    height: 30px;
+width: 30px;
+
+border-style: solid;
+border-radius: 50px;
+}
+.nav_links{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+
+
+}
+.menu_head{
+text-align: center;
+text-decoration: overline;
+margin-top: 10px;
+}
+
+.menu_lists{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+background-color: aqua;
+justify-content: center;
+
+
+}
+.menu_links{
+    margin-left: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}  
+.menu_all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-shrink: 3;
+     
+}
+.card{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+
+}
+.card-img-top{
+    height: 200px;
+    
+}

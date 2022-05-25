@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+background-color: rgb(255, 89, 0);
+}
+.img_logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.img_cart{
+    height: 30px;
+width: 30px;
+margin-top: 10px;
+border-style: solid;
+border-radius: 50px;
+}
+.nav_links{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+
+
+}
+#carouselExampleControls{
+    margin-top: 0% !important;
+
+}
+.main_na{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.na_heading{ 
+    text-align: center;
+    padding: 60px;
+
+} 
+
+.na_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ justify-content: space-evenly;
+ 
+
+
+}
+.card{
+    margin-top: 20px ;
+    margin-left: 30px;
+
+}
